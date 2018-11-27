@@ -1,104 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Landing page with detailed integrations section</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+    <title>Frontend Mentor | Landing page with detailed integrations section</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Raleway:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+</style>
 </head>
 <body>
-  Sign In
-  Sign Up
+    <div class="banner">
+        <header id="header" class="">
+            <div class="header-logo">
+                <img src="./images/logo.svg" alt="">
+            </div>
+            <div class="header-actions">
+                <a href="javascript:void(0)" class="btn-link text-white">Sign In</a>
+                <button type="button" class="bg-green btn text-white">Sign Up</button>
+            </div>
+        </header><!-- /header -->
+        <div class="banner-content">
+            <div class="banner-desc">
+                <h1 class="heading">All Your Files In One Secure Location, Accessible Anywhere.</h1>
+                <p>
+                    Fylo stores all your most important files in one secure location. 
+                    Access them wherever you need, share and collaborate with friends, 
+                    family and co-workers.
+                </p>
+                <button class="btn bg-green btn-lg">Get Started</button>
+            </div>
+            <div class="banner-img">
+                <img src="./images/illustration-main.svg" alt="">
+            </div>
+        </div>
+    </div>
 
-  All your files in one secure location, accessible anywhere.
 
-  Fylo stores all your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family and co-workers.
+    <div class="productive-box">
+        <div class="productive-container">
+            <h2 class="heading text-dark-blue text-center">Stay productive, wherever you are</h2>
+            <p class="body-text text-dark-blue padding-side text-center">
+                Never let location be an issue when accessing your files. Fylo has you 
+                covered for all of your file storage needs.
+            </p>
+        
+            <div class="productive">
+                <div class="productive-item">
+                    <img src="./images/icon-devices.svg" alt="" class="productive-img">
+                    <h4 class="productive-title text-center">All platforms, all devices, all your files</h4>
+                </div>
+                <div class="productive-item">
+                    <img src="./images/icon-security.svg" alt="" class="productive-img">
+                    <h4 class="productive-title text-center">Security you can trust</h4>
+                </div>
+                <div class="productive-item">
+                    <img src="./images/icon-collaboration.svg" alt="" class="productive-img">
+                    <h4 class="productive-title text-center">Real-time collaboration</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-  Get Started
+    <div class="connect-container">
+        <div class="connect-desc">
+            <h3 class="heading text-dark-blue">Connect with the apps you use everyday</h3>
+            <p class="body-text">
+                Fylo seamlessly integrates with hundreds of apps, meaning you can access and 
+                work on your files from the apps you already know and love.
+            </p>
+        </div>
+        <div class="connect-list">
+            <div class="connect-item">
+                <div class="connect-item-head">
+                    <img src="./images/logo-slack.png" alt="">
+                </div>
+                <div  class="connect-item-desc">
+                    <h5 class="connect-item-title">
+                        Slack
+                    </h5>
+                    <div class="connect-item-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+                    </div>
+                </div>
+            </div>
 
-  Stay productive, wherever you are
+            <div class="connect-item">
+                <div class="connect-item-head">
+                    <img src="./images/logo-gsuite.png" alt="">
+                </div>
+                <div  class="connect-item-desc">
+                    <h5 class="connect-item-title">
+                        GSuite
+                    </h5>
+                    <div class="connect-item-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+                    </div>
+                </div>
+            </div>
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
+            <div class="connect-item">
+                <div class="connect-item-head">
+                    <img src="./images/logo-trello.png" alt="">
+                </div>
+                <div  class="connect-item-desc">
+                    <h5 class="connect-item-title">
+                        Trello
+                    </h5>
+                    <div class="connect-item-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+                    </div>
+                </div>
+            </div>
 
-  All platforms, all devices, all your files
+            <div class="connect-item">
+                <div class="connect-item-head">
+                    <img src="./images/logo-asana.png" alt="">
+                </div>
+                <div  class="connect-item-desc">
+                    <h5 class="connect-item-title">
+                        Asana
+                    </h5>
+                    <div class="connect-item-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+                    </div>
+                </div>
+            </div>
 
-  Security you can trust
+            <div class="connect-item">
+                <div class="connect-item-head">
+                    <img src="./images/logo-salesforce.png" alt="">
+                </div>
+                <div  class="connect-item-desc">
+                    <h5 class="connect-item-title">
+                        Salesforce
+                    </h5>
+                    <div class="connect-item-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+                    </div>
+                </div>
+            </div>
 
-  Real-time collaboration
+            <div class="connect-item">
+                <div class="connect-item-head">
+                    <img src="./images/logo-typeform.png" alt="">
+                </div>
+                <div  class="connect-item-desc">
+                    <h5 class="connect-item-title">
+                        Typeform
+                    </h5>
+                    <div class="connect-item-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  Connect with the apps you use everyday
+    
+    <div class="fylo-start">
+        <h2 class="heading text-dark-blue">Start using Fylo today</h2>
+        <p class="body-text text-center padding-side">
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+            questions, our support team would be happy to help you.
+        </p>
+        <button type="button" class="btn bg-green btn-md wide">Get Started</button>
+    </div>
 
-  Fylo seamlessly integrates with hundreds of apps, meaning you can access and 
-  work on your files from the apps you already know and love.
 
-  Slack
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  GSuite
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Trello
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Asana
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Salesforce
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Typeform
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Start using Fylo today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
-
-  Get Started
-
-  Receive updates from us, including tips and tricks on how to improve your workflow.
-
-  Join
-
-  Phone: +1-543-123-4567
-
-  example@fylo.com
-
-  Fylo
-
-  Desktop App
-  Mobile App
-  Pricing
-  Feature
-
-  Company
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Support
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
+    <footer class="bg-dark-blue text-white">
+        <div class="footer-container">
+            <div class="footer-desc">
+                <div class="footer-logo">
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <div class="footer-newsletter">
+                    <p>Receive updates from us, including tips and tricks on how to improve your workflow.</p>
+                    <form action="" method="get" accept-charset="utf-8" class="footer-form">
+                        <div class="input-group">
+                            <input type="text" name="" value="" placeholder="email@example.com" class="form-input">
+                            <button type="submit" class="btn bg-green">Join</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-contact">
+                    <div>
+                        <img class="footer-icon" src="./images/icon-phone.svg"/>
+                        <span>Phone: +1-543-123-4567</span>
+                    </div>
+                    <div>
+                        <img class="footer-icon" src="./images/icon-email.svg"/>
+                        <span>example@fylo.com7</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <ul class="footer-link-item">
+                    <li class="title">Fylo</li>
+                    <li>Desktop App</li>
+                    <li>Mobile App</li>
+                    <li>Pricing</li>
+                    <li>Feature</li>
+                </ul>
+                <ul class="footer-link-item">
+                    <li class="title">Company</li>
+                    <li>About Us</li>
+                    <li>Jobs</li>
+                    <li>Press</li>
+                    <li>Blog</li>
+                </ul>
+                <ul class="footer-link-item">
+                    <li class="title">Support</li>
+                    <li>Contact Us</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+        </div>  
+        <p class="attribution">
+            This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+        </p>
+    </footer>
 </body>
 </html>
