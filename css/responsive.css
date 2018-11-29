@@ -21,6 +21,10 @@
         width: 23vw;
     }
     .banner {
+        background-image: none;
+        position: relative;
+    }
+    .banner:before {
         padding: 5vw;
         position: relative;
         padding-bottom: 5vw;
@@ -28,7 +32,15 @@
         background-repeat: no-repeat;
         background-position-y: top;
         background-position-x: right;
-        background-size: initial;
+        background-size: contain;
+        content: " ";
+        position: absolute;
+        right: 0;
+        top: 0;
+        /* left: 50%; */
+        width: 42%;
+        z-index: -1;
+        height: 42%;
     }
     .banner-content {
         flex-direction: column-reverse;
