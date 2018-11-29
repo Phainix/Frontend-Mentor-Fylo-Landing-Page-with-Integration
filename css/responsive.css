@@ -83,10 +83,10 @@
         border-radius: 0.4vw;
     }
     .connect-item-head {
-        height: 15vw;
+        height: 20vw;
     }
     .connect-item-head img {
-        width: 50%;
+        width: 45%;
     }
     .fylo-start {
         padding: 10vw 5vw;
@@ -128,9 +128,35 @@
     .btn {
         padding: 1.7vw 2.8vw;
     }
+    .connect-item-desc {
+        padding-bottom: 12%;
+    }
+    .productive-box:before, .productive-box:after {
+        border-radius: 6vw 0vw;
+        transform: rotate(11.31deg) skewX(-40deg);
+    }
 }
 
-
+@media (max-width: 450px) {
+    body {
+        font-size: 3.4vw;
+    }
+    .header-logo {
+        flex: 0 0 30%;
+    }
+    .footer-logo {
+        width: 27vw;
+    }
+    .banner-desc {
+        padding: 0%;
+    }
+    .padding-side, .connect-desc .body-text {
+        padding: 0% 10%;
+    }
+    footer {
+        font-size: 100%;
+    }
+}
 
 
 
